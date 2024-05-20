@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Pepper', 'carrot', 'cheese', 'cucumber', 'egg', 'grapes', 'grapes and apple', 'kiwi', 'onion', 'orange', 'pasta', 'sauce', 'tomato', 'watermelon']
+
+roboflow:
+  workspace: dlfinal-b1zeu
+  project: food-detection-txjib
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dlfinal-b1zeu/food-detection-txjib/dataset/5
