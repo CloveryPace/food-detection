@@ -1,0 +1,336 @@
+2024-05-25 18:25:26,680 INFO    StreamThr :10552 [internal.py:wandb_internal():86] W&B internal server running at pid: 10552, started at: 2024-05-25 18:25:26.679223
+2024-05-25 18:25:26,682 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status
+2024-05-25 18:25:26,697 INFO    WriterThread:10552 [datastore.py:open_for_write():85] open: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\run-ag94kjkj.wandb
+2024-05-25 18:25:26,698 DEBUG   SenderThread:10552 [sender.py:send():369] send: header
+2024-05-25 18:25:26,729 DEBUG   SenderThread:10552 [sender.py:send():369] send: run
+2024-05-25 18:25:27,305 INFO    SenderThread:10552 [dir_watcher.py:__init__():211] watching files in: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files
+2024-05-25 18:25:27,305 INFO    SenderThread:10552 [sender.py:_start_run_threads():1100] run started: ag94kjkj with start time 1716632726.682215
+2024-05-25 18:25:27,310 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: summary_record
+2024-05-25 18:25:27,310 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-05-25 18:25:27,314 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: check_version
+2024-05-25 18:25:27,314 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: check_version
+2024-05-25 18:25:27,969 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: run_start
+2024-05-25 18:25:27,973 DEBUG   HandlerThread:10552 [system_info.py:__init__():31] System info init
+2024-05-25 18:25:27,973 DEBUG   HandlerThread:10552 [system_info.py:__init__():46] System info init done
+2024-05-25 18:25:27,973 INFO    HandlerThread:10552 [system_monitor.py:start():181] Starting system monitor
+2024-05-25 18:25:27,973 INFO    SystemMonitor:10552 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-05-25 18:25:27,974 INFO    HandlerThread:10552 [system_monitor.py:probe():201] Collecting system info
+2024-05-25 18:25:27,977 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started cpu monitoring
+2024-05-25 18:25:27,977 DEBUG   HandlerThread:10552 [system_info.py:probe():195] Probing system
+2024-05-25 18:25:27,977 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started disk monitoring
+2024-05-25 18:25:27,978 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started gpu monitoring
+2024-05-25 18:25:27,978 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started memory monitoring
+2024-05-25 18:25:27,981 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started network monitoring
+2024-05-25 18:25:27,982 DEBUG   HandlerThread:10552 [system_info.py:_probe_git():180] Probing git
+2024-05-25 18:25:28,039 DEBUG   HandlerThread:10552 [system_info.py:_probe_git():188] Probing git done
+2024-05-25 18:25:28,039 DEBUG   HandlerThread:10552 [system_info.py:probe():240] Probing system done
+2024-05-25 18:25:28,039 DEBUG   HandlerThread:10552 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.8.13', 'heartbeatAt': '2024-05-25T10:25:27.977905', 'startedAt': '2024-05-25T10:25:26.671243', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/CloveryPace/food-detection.git', 'commit': '96f8c1292ae3ed2b202724a9575301bfdedf6948'}, 'email': '128057141+CloveryPace@users.noreply.github.com', 'root': 'C:/Users/USER/OneDrive/Documents/GitHub/food-detection', 'host': 'DESKTOP-ALC3E8J', 'username': 'USER', 'executable': 'c:\\Users\\USER\\anaconda3\\envs\\new_venv\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2904.0, 'min': 0.0, 'max': 2904.0}, 'cpu_freq_per_core': [{'current': 2904.0, 'min': 0.0, 'max': 2904.0}], 'disk': {'total': 1861.808006286621, 'used': 359.7221374511719}, 'gpu': 'NVIDIA GeForce RTX 2080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080', 'memory_total': 8589934592}], 'memory': {'total': 127.86668014526367}}
+2024-05-25 18:25:28,039 INFO    HandlerThread:10552 [system_monitor.py:probe():211] Finished collecting system info
+2024-05-25 18:25:28,040 INFO    HandlerThread:10552 [system_monitor.py:probe():214] Publishing system info
+2024-05-25 18:25:28,040 DEBUG   HandlerThread:10552 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-05-25 18:25:28,040 DEBUG   HandlerThread:10552 [system_info.py:_save_pip():67] Saving pip packages done
+2024-05-25 18:25:28,040 DEBUG   HandlerThread:10552 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-05-25 18:25:28,318 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\conda-environment.yaml
+2024-05-25 18:25:28,318 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\wandb-summary.json
+2024-05-25 18:25:28,318 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\requirements.txt
+2024-05-25 18:25:45,492 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\conda-environment.yaml
+2024-05-25 18:25:45,566 DEBUG   HandlerThread:10552 [system_info.py:_save_conda():86] Saving conda packages done
+2024-05-25 18:25:45,566 INFO    HandlerThread:10552 [system_monitor.py:probe():216] Finished publishing system info
+2024-05-25 18:25:45,566 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:45,566 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-25 18:25:45,567 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:45,567 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-25 18:25:45,567 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:45,567 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-25 18:25:45,567 DEBUG   SenderThread:10552 [sender.py:send():369] send: files
+2024-05-25 18:25:45,567 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-05-25 18:25:45,578 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:25:45,579 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:25:45,874 DEBUG   SenderThread:10552 [sender.py:send():369] send: telemetry
+2024-05-25 18:25:46,109 INFO    wandb-upload_0:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\5rrponec-wandb-metadata.json
+2024-05-25 18:25:46,493 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\wandb-metadata.json
+2024-05-25 18:25:46,493 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:25:48,144 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:48,520 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:25:53,183 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:58,249 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:25:58,638 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\config.yaml
+2024-05-25 18:26:00,603 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:26:00,604 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:26:03,826 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:08,734 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:26:09,594 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:12,758 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:26:14,599 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:14,779 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:26:15,610 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:26:15,611 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:26:16,798 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:26:19,910 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:24,956 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:27,993 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-05-25 18:26:27,993 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:26:30,012 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:30,623 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:26:30,624 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:26:35,920 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:40,956 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:45,641 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:26:45,641 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:26:46,887 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:51,936 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:56,988 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:26:57,995 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:27:00,655 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:27:00,655 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:27:02,899 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:07,960 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:13,003 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:15,683 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:27:15,683 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:27:19,012 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:24,067 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:28,010 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:27:30,025 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:30,688 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:27:30,688 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:27:36,002 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:41,031 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:45,695 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:27:45,695 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:27:46,970 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:52,022 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:57,055 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:27:58,016 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:28:00,709 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:28:00,710 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:28:02,927 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:07,978 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:13,010 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:15,721 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:28:15,722 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:28:18,989 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:24,024 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:28,030 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:28:29,039 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:30,745 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:28:30,746 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:28:35,027 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:40,079 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:45,127 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:45,753 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:28:45,753 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:28:51,009 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:56,047 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:28:56,892 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: pause
+2024-05-25 18:28:56,892 INFO    HandlerThread:10552 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2024-05-25 18:28:56,892 INFO    HandlerThread:10552 [system_monitor.py:finish():190] Stopping system monitor
+2024-05-25 18:28:56,892 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-05-25 18:28:56,892 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-05-25 18:28:56,897 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-25 18:28:56,897 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined disk monitor
+2024-05-25 18:28:56,930 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-25 18:28:56,930 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined memory monitor
+2024-05-25 18:28:56,930 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined network monitor
+2024-05-25 18:28:56,931 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:29:00,766 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:29:00,766 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:29:02,053 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:07,095 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:09,636 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: resume
+2024-05-25 18:29:09,636 INFO    HandlerThread:10552 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2024-05-25 18:29:09,636 INFO    HandlerThread:10552 [system_monitor.py:start():181] Starting system monitor
+2024-05-25 18:29:09,636 INFO    SystemMonitor:10552 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-05-25 18:29:09,639 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started cpu monitoring
+2024-05-25 18:29:09,639 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started disk monitoring
+2024-05-25 18:29:09,640 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started gpu monitoring
+2024-05-25 18:29:09,640 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started memory monitoring
+2024-05-25 18:29:09,643 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started network monitoring
+2024-05-25 18:29:11,412 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:12,103 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:13,423 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:15,785 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:29:15,785 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:29:18,093 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:23,154 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:28,213 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:29,609 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:30,801 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:29:30,801 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:29:33,626 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:34,033 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:35,654 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:37,433 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:37,433 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:37,664 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:39,594 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:39,595 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:39,628 DEBUG   SenderThread:10552 [sender.py:send():369] send: files
+2024-05-25 18:29:39,628 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file media\images\train_batch0_1_eca2b09444f66d0de505.jpg with policy now
+2024-05-25 18:29:39,628 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:39,674 DEBUG   SenderThread:10552 [sender.py:send():369] send: files
+2024-05-25 18:29:39,674 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:39,686 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:39,686 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file media\images\train_batch1_1_6311d124d9ecae58622a.jpg with policy now
+2024-05-25 18:29:39,687 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media\images\train_batch1_1_6311d124d9ecae58622a.jpg
+2024-05-25 18:29:39,688 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media\images\train_batch0_1_eca2b09444f66d0de505.jpg
+2024-05-25 18:29:39,689 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media\images
+2024-05-25 18:29:39,689 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media
+2024-05-25 18:29:39,739 DEBUG   SenderThread:10552 [sender.py:send():369] send: files
+2024-05-25 18:29:39,739 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file media\images\train_batch2_1_34956d6200fffac5999e.jpg with policy now
+2024-05-25 18:29:39,739 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:39,862 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:40,702 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media\images\train_batch2_1_34956d6200fffac5999e.jpg
+2024-05-25 18:29:40,703 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\media\images
+2024-05-25 18:29:40,952 INFO    wandb-upload_0:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\56r3vp37-media/images/train_batch0_1_eca2b09444f66d0de505.jpg
+2024-05-25 18:29:41,154 INFO    wandb-upload_1:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\w7jakerg-media/images/train_batch1_1_6311d124d9ecae58622a.jpg
+2024-05-25 18:29:41,204 INFO    wandb-upload_2:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\ai45sjv8-media/images/train_batch2_1_34956d6200fffac5999e.jpg
+2024-05-25 18:29:41,719 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:42,553 INFO    wandb-upload_0:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\rb14lyk1-media/images/train_batch0_1_eca2b09444f66d0de505.jpg
+2024-05-25 18:29:42,619 INFO    wandb-upload_1:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\scf5fylj-media/images/train_batch2_1_34956d6200fffac5999e.jpg
+2024-05-25 18:29:43,752 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:44,084 INFO    wandb-upload_2:10552 [upload_job.py:push():133] Uploaded file C:\Users\USER\AppData\Local\Temp\tmpf_mosxnuwandb\hqc3av6s-media/images/train_batch1_1_6311d124d9ecae58622a.jpg
+2024-05-25 18:29:44,598 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:44,600 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:44,601 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-25 18:29:44,602 DEBUG   SenderThread:10552 [sender.py:send():369] send: history
+2024-05-25 18:29:44,602 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: summary_record
+2024-05-25 18:29:44,603 INFO    SenderThread:10552 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-05-25 18:29:44,763 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\wandb-summary.json
+2024-05-25 18:29:45,769 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:45,815 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:29:45,816 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:29:50,426 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:29:50,862 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: pause
+2024-05-25 18:29:50,863 INFO    HandlerThread:10552 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2024-05-25 18:29:50,863 INFO    HandlerThread:10552 [system_monitor.py:finish():190] Stopping system monitor
+2024-05-25 18:29:50,863 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-05-25 18:29:50,863 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-05-25 18:29:50,863 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-05-25 18:29:50,868 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-25 18:29:50,869 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined disk monitor
+2024-05-25 18:29:50,905 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-25 18:29:50,905 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined memory monitor
+2024-05-25 18:29:50,905 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined network monitor
+2024-05-25 18:29:50,905 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:29:51,818 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:29:55,943 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:00,828 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:30:00,828 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:30:01,075 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:06,125 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:11,194 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:15,833 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:30:15,833 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:30:17,097 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:22,152 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:23,667 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: resume
+2024-05-25 18:30:23,667 INFO    HandlerThread:10552 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2024-05-25 18:30:23,667 INFO    HandlerThread:10552 [system_monitor.py:start():181] Starting system monitor
+2024-05-25 18:30:23,667 INFO    SystemMonitor:10552 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-05-25 18:30:23,670 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started cpu monitoring
+2024-05-25 18:30:23,671 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started disk monitoring
+2024-05-25 18:30:23,671 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started gpu monitoring
+2024-05-25 18:30:23,672 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started memory monitoring
+2024-05-25 18:30:23,675 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started network monitoring
+2024-05-25 18:30:25,212 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:26,220 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:27,221 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:27,268 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:30,846 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:30:30,846 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:30:33,130 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:38,196 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:43,263 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:45,863 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:30:45,863 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:30:48,928 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:50,444 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:54,554 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:30:55,497 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:56,500 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:30:57,052 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: pause
+2024-05-25 18:30:57,052 INFO    HandlerThread:10552 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2024-05-25 18:30:57,052 INFO    HandlerThread:10552 [system_monitor.py:finish():190] Stopping system monitor
+2024-05-25 18:30:57,052 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-05-25 18:30:57,058 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-05-25 18:30:57,058 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-05-25 18:30:57,059 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-25 18:30:57,059 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined disk monitor
+2024-05-25 18:30:57,106 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-25 18:30:57,107 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined memory monitor
+2024-05-25 18:30:57,107 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined network monitor
+2024-05-25 18:30:57,107 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:30:58,519 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:31:00,139 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:00,872 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:31:00,872 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:31:05,175 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:10,226 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:11,566 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: resume
+2024-05-25 18:31:11,566 INFO    HandlerThread:10552 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2024-05-25 18:31:11,566 INFO    HandlerThread:10552 [system_monitor.py:start():181] Starting system monitor
+2024-05-25 18:31:11,566 INFO    SystemMonitor:10552 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-05-25 18:31:11,570 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started cpu monitoring
+2024-05-25 18:31:11,570 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started disk monitoring
+2024-05-25 18:31:11,570 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started gpu monitoring
+2024-05-25 18:31:11,571 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started memory monitoring
+2024-05-25 18:31:11,574 INFO    SystemMonitor:10552 [interfaces.py:start():190] Started network monitoring
+2024-05-25 18:31:13,664 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:31:15,383 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:15,679 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:31:15,882 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:31:15,882 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:31:17,707 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:31:21,153 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:26,212 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:30,886 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:31:30,886 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:31:32,138 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:37,195 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:42,230 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:45,892 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:31:45,892 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:31:48,131 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:52,380 INFO    Thread-55 :10552 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\USER\OneDrive\Documents\GitHub\food-detection\wandb\run-20240525_182526-ag94kjkj\files\output.log
+2024-05-25 18:31:53,790 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:31:56,386 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: pause
+2024-05-25 18:31:56,386 INFO    HandlerThread:10552 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2024-05-25 18:31:56,386 INFO    HandlerThread:10552 [system_monitor.py:finish():190] Stopping system monitor
+2024-05-25 18:31:56,386 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-05-25 18:31:56,386 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-25 18:31:56,387 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-05-25 18:31:56,392 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined disk monitor
+2024-05-25 18:31:56,392 DEBUG   SystemMonitor:10552 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-05-25 18:31:56,431 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-25 18:31:56,431 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined memory monitor
+2024-05-25 18:31:56,431 INFO    HandlerThread:10552 [interfaces.py:finish():202] Joined network monitor
+2024-05-25 18:31:56,432 DEBUG   SenderThread:10552 [sender.py:send():369] send: stats
+2024-05-25 18:31:59,460 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:00,902 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:32:00,902 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:32:05,195 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:10,246 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:15,297 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:15,901 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:32:15,901 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:32:21,176 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:26,237 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:30,917 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:32:30,918 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:32:32,212 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:37,262 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:42,308 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:45,908 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:32:45,908 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:32:48,129 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:53,197 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:32:58,252 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:33:00,932 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:33:00,932 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:33:04,258 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:33:09,298 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:33:14,347 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
+2024-05-25 18:33:15,937 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-25 18:33:15,937 DEBUG   SenderThread:10552 [sender.py:send_request():396] send_request: stop_status
+2024-05-25 18:33:20,189 DEBUG   HandlerThread:10552 [handler.py:handle_request():144] handle_request: status_report
