@@ -10,3 +10,6 @@ R12725057 劉倍嘉,
 ### cralwer
 - [icook_crawler.ipynb](./crawler/icook_crawler.ipynb) 取得 [icook.tw](https://icook.tw) 上的食譜資料
 - [calorie_crawler.ipynb](./crawler/calorie_crawler.ipynb) 使用 [calorieninjas.com](https://calorieninjas.com/api) 提供的API估算餐點所含的卡路里
+
+### 其他
+- [non-pretrained-yolov8.ipynb] (./non-pretrained-yolov8.ipynb) 為沒有預訓練的 YOLO 模型
