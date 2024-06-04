@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2024-05-30T08:35:09.517693",
+    "startedAt": "2024-05-30T08:35:08.799643",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/CloveryPace/food-detection.git",
+        "commit": "c97c9d18a47e8e7afd379b9902472f9d43a463e4"
+    },
+    "email": "128057141+CloveryPace@users.noreply.github.com",
+    "root": "C:/Users/USER/Desktop/food-detection",
+    "host": "DESKTOP-ALC3E8J",
+    "username": "USER",
+    "executable": "c:\\Users\\USER\\anaconda3\\envs\\new_venv\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2904.0,
+        "min": 0.0,
+        "max": 2904.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2904.0,
+            "min": 0.0,
+            "max": 2904.0
+        }
+    ],
+    "disk": {
+        "total": 1861.808006286621,
+        "used": 348.60150146484375
+    },
+    "gpu": "NVIDIA GeForce RTX 2080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 127.86668014526367
+    }
+}
