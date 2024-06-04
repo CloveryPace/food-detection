@@ -13,3 +13,5 @@ R12725057 劉倍嘉
 
 ### 其他
 - [non-pretrained-yolov8.ipynb](./non-pretrained-yolov8.ipynb) 為沒有預訓練的 YOLO 模型
+- [Faster_RCNN.ipynb](./food-detection/Faster_RCNN.ipynb) 為 Faster-RCNN 模型
+- [Mask_RCNN.ipynb](./food-detection/Mask_RCNN.ipynb) 為 Mask-RCNN 模型
