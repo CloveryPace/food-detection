@@ -12,4 +12,4 @@ R12725057 劉倍嘉,
 - [calorie_crawler.ipynb](./crawler/calorie_crawler.ipynb) 使用 [calorieninjas.com](https://calorieninjas.com/api) 提供的API估算餐點所含的卡路里
 
 ### 其他
-- [non-pretrained-yolov8.ipynb] (./non-pretrained-yolov8.ipynb) 為沒有預訓練的 YOLO 模型
+- [non-pretrained-yolov8.ipynb](./non-pretrained-yolov8.ipynb) 為沒有預訓練的 YOLO 模型
